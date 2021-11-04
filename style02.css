@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    font-size: 14px;
+}
+header, footer, nav{
+    height:300px;
+    text-align: center;
+    font-size: 1.4em;
+}
+section{
+    display:flex;
+}
+article,aside{
+   /* height:300px; */
+   height:calc(100vh - 200px);
+    border:1px solid gray;
+}
+article{
+    flex:3;
+}
+aside{
+    flex:1
+}
+nav{
+    flex:1
+}
